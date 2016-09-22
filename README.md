@@ -6,7 +6,7 @@
 + Hem fet el nostre repositori de GitHub
 + Em creat un certificat
 + Ens han explicat que es el Markdown
-+ Estem fent la practica de Markdown
++ Estem fent la pràctica de Markdown
 
 > #### _Llenguatge Markdown_
     _Per fer cursiva_
