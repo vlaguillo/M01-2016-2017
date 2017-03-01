@@ -66,18 +66,21 @@ while sortir == False:
 				
 				os.system('clear')
 				
-				if nombretabla == "pedidos":
-					print "| num_pedido | fecha_pedido | clie   | rep |  fab   | producto  | cant  | importe |"
-					print "|------------+--------------+--------+-----+--------+-----------+-------+---------|"
-					for row in rows:
-						print(" {:^10}     {}   {:^6}   {:^5}  {:^5}  {:^10}  {:^5}   {:^10} ".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
-												
-				elif nombretabla == "clientes":
+				
+				#Per a la taula clientes				
+				if nombretabla == "clientes":
 					print "| num_clie   |      empresa     | rep_clie | limite_credito | "
 					print "|------------+------------------+----------+----------------|"
 					for row in rows:
 						print(" {:^10}   {:^20}  {:^5}       {:^10}".format(row[0], row[1], row[2], row[3]))
-					
+	
+				#Per a la taula pedidos					
+				else:
+					 nombretabla == "pedidos"
+					 print "| num_pedido | fecha_pedido | clie   | rep |  fab   | producto  | cant  | importe |"
+					 print "|------------+--------------+--------+-----+--------+-----------+-------+---------|"
+					 for row in rows:
+						print(" {:^10}     {}   {:^6}   {:^5}  {:^5}  {:^10}  {:^5}   {:^10} ".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))	
 				
 				tecla = raw_input('Prem una tecla per continuar')
 		
