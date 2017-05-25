@@ -45,9 +45,10 @@ A la capa d'aplicació
 
 ### Busqueu quins són els tradicionals sistemes de tallafocs incorporats en linux i anomeneu-los
 
-iptables
+En el Linux antic son les iptables i en el actual es diu firewall d
 
 ### Quins dels anteriors tallafocs estan instal.lats al fedora de classe? Com ho comproveu?
+El firewalld esta instalat
 
 ### Algun dels anteriors tallafocs es troba activat?
 
@@ -65,8 +66,13 @@ Si, el que ja ve per defecte
 ### Arrenqueu una màquina win7 a isard.escoladeltreball.org
 
 ### Indiqueu com arribar al tallafocs (passos i pantalles)
+1. Inicill
+2. Panel de control
+3. Sistema i seguretat
+4. Firewall de Windows
 
 ### Es troba activat en aquest windows?
+Si que es troba activat
 
 ### Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
 __Tinywall__: Es un talla focs per a Windows i només necesita 1MB del teu disc dur. Funciona en segon pla per no molestar al usuari
