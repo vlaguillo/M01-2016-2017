@@ -13,7 +13,7 @@ Millorava el filtratge per paquets
 __Segona generació: tallafocs d'estat__
 Implemena la colocació de cada paquet individual dintre d'una serie de paquets
 
-__Tercera generació: tallafocs d'aplicació
+__Tercera generació: tallafocs d'aplicació__
 Aquesta generació pot entendre certes aplicacions i protocols
 
 ### Quines capes té el model OSI?
@@ -51,10 +51,12 @@ En el Linux antic son les iptables i en el actual es diu firewall d
 El firewalld esta instalat
 
 ### Algun dels anteriors tallafocs es troba activat?
+Si, el firewalld
 
 ### Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
 
 ### Activeu el servei firewalld. Indiqueu com ho feu.
+Per activar el servei es fa amb systemctl start firewalld
 
 ### Comproveu si ara es pot seguir accedint.
 
@@ -66,7 +68,7 @@ Si, el que ja ve per defecte
 ### Arrenqueu una màquina win7 a isard.escoladeltreball.org
 
 ### Indiqueu com arribar al tallafocs (passos i pantalles)
-1. Inicill
+1. Inici
 2. Panel de control
 3. Sistema i seguretat
 4. Firewall de Windows
